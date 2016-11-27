@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <style type="text/css">
+        .first{
+            border: solid black 1px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        Name <br>
+        <input type="name" name="name" placeholder="Введите имя"> <br>
+        E-mail <br>
+        <input type="email" name="email"> <br>
+        Sex <br>
+        <input type="radio" name="Sex" value="Male">Male
+        <input type="radio" name="Sex" value="Female">Female<br>
+        Current status <br>
+        <input type="checkbox" name="Status" value="Student">Student <br>
+        <input type="checkbox" name="Status" value="Employed">Employed <br>
+        <input type="checkbox" name="Status" value="Unemployed">Unemployed <br>
+        Month and Year of birth <br>
+        <select>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>
+        </select>
+        <select>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+        </select>
+        <br>
+        Skills and Technologies <br>
+        <select class="first">
+            <optgroup label="Tech Skils">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+            </optgroup>
+            <optgroup label="Soft Skils">
+                <option value="TA">Time management</option>
+                <option value="ProA">Proactivity</option>
+                <option value="TW">Time work</option>
+                <option value="LS">Leadership</option>
+            </optgroup>
+        </select>
+        <br>
+        Photo <br>
+        <input type="file" value="photo" placeholder="Choose file"><br>
+        Comment <br>
+        <textarea rows="4" cols="40"></textarea><br>
+        <br>
+        <input type="button" value="save" placeholder="Save">
+    </form>
+</body>
+</html>

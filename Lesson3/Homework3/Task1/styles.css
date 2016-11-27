@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: orange;
+    text-align: right;
+}
+p:first-letter {
+    color: red;
+    font-size: 22px;
+}
+p em{
+    background-color: green;
+    color: white;
+}
+#allotment h2 {
+    color: orange;
+}
+li {
+    font-weight: bold;
+}
+#allotment li .fruits-list {
+    font-weight: normal;
+    color: grey;
+}
+#allotment li .vegetables-list {
+    font-weight: normal;
+    color: red;
+}
+#warehouse h2 {
+    color: blue;
+}
+li {
+    font-weight: bold;
+}
+#warehouse li .fruits-list {
+    font-weight: normal;
+    color: green;
+}
+#warehouse li .vegetables-list {
+    font-weight: normal;
+    color: red;
+}
+/*Таблица*/
+table {
+    text-align: center;
+}
+.green {
+    background-color: green;
+    color: white;
+}
+.green td:nth-of-type(1) {
+    background-color: white;
+    color: orange;
+}
+thead {
+    font-weight: bold
+}

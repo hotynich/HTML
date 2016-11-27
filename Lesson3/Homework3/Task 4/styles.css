@@ -1,0 +1,25 @@
+bady {
+    padding: 0;
+    margin: 0;
+}
+table {
+    padding: 0px;
+}
+td {
+    height: 20px;
+    margin: 0;
+    padding: 5px 10px;
+}
+tr :nth-child(3){
+    background-color: #f2f2de;
+}
+tr {
+    border-bottom: solid 2px grey;
+    display: flex;
+}
+.colorb {
+    background-color: #ddebf7;
+}
+tbody {
+    padding: 0px;
+}
