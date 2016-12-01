@@ -1,0 +1,22 @@
+div {
+    background-color: #a64dff;
+}
+ul {
+    margin: auto;
+    width: 900px;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    padding: 10px 15px;
+    width: auto;
+    text-align: center;
+    color: #fff;
+}
+div {
+    width: 100%;
+}
+li:hover{
+    background-color: #eeeeee;
+    color: #a0a0a0;
+}

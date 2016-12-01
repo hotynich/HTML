@@ -1,0 +1,29 @@
+div{
+    width: 100%
+}
+ul{
+    list-style-type: none;
+}
+li {
+    border-radius: 5px;
+    color: #a23cd0;
+    display: inline-block;
+    margin: 2px;
+    padding: 8px 15px;
+}
+.button{
+    border: solid 1px #ddd;
+
+}
+.black {
+    color: #000;
+    vertical-align: text-top;
+}
+.black:hover {
+    color: #000000;
+    background-color: transparent;
+}
+li:hover{
+    background-color: #a23cd0;
+    color: #fff;
+}

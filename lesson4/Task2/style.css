@@ -1,0 +1,30 @@
+div {
+    background-color: #a64dff;
+
+}
+.clear {
+    clear: both;
+}
+ul {
+    margin: auto;
+    width: 900px;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    float: left;
+    padding: 10px 15px;
+    width: auto;
+    text-align: center;
+    color: #fff;
+}
+li:last-child{
+    float: right;
+}
+div {
+    width: 100%;
+}
+li:hover{
+    background-color: #eeeeee;
+    color: #a0a0a0;
+}
