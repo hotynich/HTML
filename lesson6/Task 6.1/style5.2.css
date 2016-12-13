@@ -1,0 +1,177 @@
+body {
+    background-color: #35495a;
+    font-family: "Trebuchet MS";
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background-color: #ffffff;
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 86px;
+    width: 100%;
+}
+#banner h1{
+    color: #41525c;
+    font-size: 170%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+#offers {
+    padding-bottom: 68px;
+    position: relative;
+    width: 900px;
+    margin: auto;
+}
+/*Банер*/
+#box {  background-color: #ee8129;
+    border-radius: 5px;
+    border: 4px solid #ee8129;
+    box-shadow: 0 0 7px #cde2ee;
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 290px;
+    z-index: 2;
+}
+.bannerLogo {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    height: 73px;
+    line-height: 73px;
+}
+.bannerBox {
+    background-color: #ffffff;
+}
+.bannerBox span {
+    color: #3f4042;
+    font-size: x-large;
+}
+.bigText {
+    background-color: #fff;
+    padding-top: 23px;
+    text-align: center;
+    width: 290px;
+}
+.bigText span{
+    text-align: center;
+}
+.price {
+    font-weight: bold;
+    margin: auto;
+    padding-left: 15px;
+    width: 245px;
+}
+.price ul li {
+    color: #35495a;
+    display: inline-block;
+    position: relative;
+}
+.price ul li:first-child {
+    font-size: 120%;
+    top: -35px;
+}
+.price ul li:last-child{
+    margin-left: -8px;
+    top: 10px;
+}
+.number {
+    font-size: 400%;
+}
+.proposing {
+    margin: 0 auto;
+    padding-top: 1px;
+    width: 260px;
+}
+.proposing ul{
+    background-color: #edf5fd;
+    color: #91949c;
+    list-style-type: none;
+}
+.proposing ul li {
+    border-bottom: solid 1px #ffffff;
+    height: 34px;
+    margin-left: -10px;
+
+}
+.proposing ul li:before{
+    content: url(images/point.png);
+    margin-right: 15px;
+}
+.proposing ul li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+.button {
+    background-color: #ee8129;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid #b1561b;
+    color: #ffffff;
+    display: block;
+    font-size: 90%;
+    font-weight: bold;
+    height: 45px;
+    margin: auto;
+    width: 252px;
+}
+.button:active {
+    box-shadow: #b3560b 4px;
+    height: 45px;
+}
+form {
+    padding-bottom: 30px;
+}
+/*Left Banner*/
+#leftBanner {
+    border-top: 1px solid #cde2ee;
+    border-left: 1px solid #cde2ee;
+    border-bottom: 1px solid #cde2ee;
+    border-radius: 5px 0 0 5px;
+    display: inline-block;
+    float: left;
+    margin-top: 13px;
+    width: 290px;
+}
+#leftBanner .bannerLogo{
+    background-color: #37c2d3;
+    border-radius: 5px 0 0 0;
+    height: 63px;
+    line-height: 63px;
+}
+#leftBanner .button{
+    background-color: #3371a6;
+    border: none;
+    border-bottom: 3px solid #16436a;
+}
+#leftBanner .price{
+    padding-left: 30px;
+}
+/*Right Banner*/
+#rightBanner {
+    border-top: 1px solid #cde2ee;
+    border-right: 1px solid #cde2ee;
+    border-bottom: 1px solid #cde2ee;
+    border-radius: 0 5px 5px 0;
+    display: inline-block;
+    float: left;
+    margin-top: 13px;
+    width: 290px;
+}
+#rightBanner .bannerLogo{
+    background-color: #1cb79a;
+    border-radius: 0 5px 0 0;
+    height: 63px;
+    line-height: 63px;
+}
+#rightBanner .button{
+    background-color: #3371a6;
+    border: none;
+    border-bottom: 3px solid #16436a;
+}
+#rightBanner .price{
+    padding-left: 30px;

@@ -1,0 +1,77 @@
+body {
+    background-image: url("images/bg.png");
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #3170a8;
+}
+h1 span{
+    color: #ee8129;
+}
+#reviewer {
+    display: inline-block;
+    position: relative;
+    width: 1050px;
+
+}
+#reviewer > div{
+    display: inline-block;
+    position: relative;
+}
+#reviewer > div > img {
+    margin-right: 26px;
+}
+.reviewerHead > div {
+    color: #3070a8;
+    display: inline-block;
+    padding-bottom: -25px;
+}
+.reviewerHead {
+    line-height: 0.3;
+    font-style: italic;
+    position: relative;
+
+}
+.who {
+    margin-left: 15px;
+}
+.who p:before{
+    content: " - ";
+    padding-right: 5px;
+}
+.who2 {
+    position: absolute;
+    right: 19px;
+}
+.text {
+    background-color: #ffffff;
+    color: #666;
+    max-height: 98px;
+    max-width: 365px;
+    line-height: 1.2;
+    top: -9px;
+}
+#girl > div {
+    display: inline-block;
+    position: relative;
+}
+#boy > div {
+    display: inline-block;
+    position: relative;
+}
+#girl {
+    margin-right: 43px;
+}
+.clearReview p {
+    display: inline-block;
+    margin-left: 18px;
+    position: relative;
+    bottom: 10px;
+    border-top: dashed 1px #666;
+    padding-top: 10px;
+    width: 90%;
+}
+.clearReview {
+    position: relative;
+}
