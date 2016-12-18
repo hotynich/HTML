@@ -1,26 +1,36 @@
 body {
-    background-image: url("images/bg.png");
     margin: 0;
     padding: 0;
+    max-width: 1400px;
 }
-h1{
+#WriteUs {
+    background-image: url("images/bg.png");
+
+}
+#WriteUs h1{
     color: #3170a8;
+    text-align: center;
+    line-height: 0.6;
+    padding-bottom: 40px;
+    padding-top: 58px;
+    margin: 0px;
 }
-h1 span{
+#WriteUs h1 span{
     color: #ee8129;
 }
 #reviewer {
     display: inline-block;
+    max-width: 100%;
     position: relative;
-    width: 1050px;
-
+    top:5px;
+    margin-bottom: 79px;
 }
 #reviewer > div{
     display: inline-block;
     position: relative;
 }
 #reviewer > div > img {
-    margin-right: 26px;
+    margin-right: 11px;
 }
 .reviewerHead > div {
     color: #3070a8;
@@ -46,22 +56,41 @@ h1 span{
 }
 .text {
     background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+    border-left: none;
     color: #666;
-    max-height: 98px;
-    max-width: 365px;
+    max-height: 96px;
+    max-width: 362px;
     line-height: 1.2;
-    top: -9px;
+    top: 1px;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-right-color: #ffffff;
+    border-left: 0;
+    margin-right: -4px;
+    margin-bottom: 34px;
+}
+
+#girl {
+    margin-left: 180px;
+    max-width: 500px;
 }
 #girl > div {
     display: inline-block;
     position: relative;
+}
+#boy {
+    margin-right: 188px;
 }
 #boy > div {
     display: inline-block;
     position: relative;
 }
 #girl {
-    margin-right: 43px;
+    margin-right: 42px;
 }
 .clearReview p {
     display: inline-block;

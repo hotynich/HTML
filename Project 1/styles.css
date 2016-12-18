@@ -1,8 +1,73 @@
 body {
-    background-color: #35495a;
-    margin: 0;
+    background-color: #282828;
+    margin: 0 auto;
     padding: 0;
+    max-width: 1400px;
 }
+/*header*/
+Header {
+    margin-bottom: -5px;
+}
+#HeaderMain {
+    background-color: #ffffff;
+    display: inline-block;
+    height: 116px;
+    position: relative;
+    width: 1400px;
+}
+#logo {
+    color: #ee8129;
+    float: left;
+    font-family:  'Open Sans', sans-serif;;
+    font-size: 36px;
+    margin-left: 189px;
+    vertical-align: middle;
+}
+#logo > p > span {
+    color: #3070a8;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#topMenu {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    height: 67px;
+    position: absolute;
+    right: 185px;
+    top: 50px;
+}
+#topMenu > ul {
+    display: inline-block;
+    height: 100%;
+}
+#topMenu > ul > li {
+    color: #9f9f9f;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    height: 53px;
+    margin-right: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+#topMenu > ul > li:last-child {
+    margin-right: 0;
+}
+#topMenu > ul > li:hover {
+    color: #3070a8;
+    border-bottom: solid 4px #3070a8;
+    height: 49px;
+}
+/*end header*/
+/*main banner*/
+#mainBanner > img {
+    display: inline-block;
+    margin-bottom: -6px;
+}
+/*end my banner*/
+/*banner*/
 #banner{
     background-color: #ffffff;
     font-family: "Trebuchet MS";
@@ -176,3 +241,107 @@ form {
 #rightBanner .price {
     padding-left: 30px;
 }
+/*end banner*/
+/*recall*/
+#WriteUs {
+    background-image: url("images/bg.png");
+
+}
+#WriteUs h1{
+    color: #3170a8;
+    text-align: center;
+    line-height: 0.6;
+    padding-bottom: 40px;
+    padding-top: 58px;
+    margin: 0px;
+}
+#WriteUs h1 span{
+    color: #ee8129;
+}
+#reviewer {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    top:5px;
+    margin-bottom: 79px;
+}
+#reviewer > div{
+    display: inline-block;
+    position: relative;
+}
+#reviewer > div > img {
+    margin-right: 11px;
+}
+.reviewerHead > div {
+    color: #3070a8;
+    display: inline-block;
+    padding-bottom: -25px;
+}
+.reviewerHead {
+    line-height: 0.3;
+    font-style: italic;
+    position: relative;
+
+}
+.who {
+    margin-left: 15px;
+}
+.who p:before{
+    content: " - ";
+    padding-right: 5px;
+}
+.who2 {
+    position: absolute;
+    right: 19px;
+}
+.text {
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+    border-left: none;
+    color: #666;
+    max-height: 96px;
+    max-width: 362px;
+    line-height: 1.2;
+    top: 1px;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-right-color: #ffffff;
+    border-left: 0;
+    margin-right: -4px;
+    margin-bottom: 34px;
+}
+
+#girl {
+    margin-left: 180px;
+    max-width: 500px;
+}
+#girl > div {
+    display: inline-block;
+    position: relative;
+}
+#boy {
+    margin-right: 188px;
+}
+#boy > div {
+    display: inline-block;
+    position: relative;
+}
+#girl {
+    margin-right: 42px;
+}
+.clearReview p {
+    display: inline-block;
+    margin-left: 18px;
+    position: relative;
+    bottom: 10px;
+    border-top: dashed 1px #666;
+    padding-top: 10px;
+    width: 90%;
+}
+.clearReview {
+    position: relative;
+}
+/*end recall*/
