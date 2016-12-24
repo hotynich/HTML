@@ -62,11 +62,149 @@ Header {
 }
 /*end header*/
 /*main banner*/
-#mainBanner > img {
-    display: inline-block;
-    margin-bottom: -6px;
+#mainBanner {
+    background-image: url("images/mainBanner.png");
+    color: #ffffff;
+    height: 585px;
+    margin-top: -41px;
+    text-align: center;
+    width: 1400px;
 }
-/*end my banner*/
+#mainBanner .firstP {
+    display: block;
+    font-family: "Futura Bk BT";
+    font-size: 36px;
+    padding-top: 140px;
+}
+#mainBanner > p > span{
+    font-family: "Futura Md BT";
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#mainBanner .italic {
+    font-family: Calibri;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+#mainBanner > form > button, button:active, button:focus {
+    background: none;
+    border: solid 1px #98a8b5;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 56px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    width: 244px;
+}
+/*end mine banner*/
+/*rings*/
+#rings {
+    background-color: #ffffff;
+    height: 564px;
+    margin-top: -21px;
+    text-align: center;
+    width: 1400px;
+}
+#rings > h1 {
+    color: #41525c;
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 49px;
+    padding-top: 58px;
+    text-transform: uppercase;
+}
+.rings {
+    float: left;
+    text-align: center;
+}
+.ringBanner {
+    display: inline-block;
+    margin-right: 55px;
+    width: 309px;
+}
+.ringBanner > h2 {
+    color: #3070a8;
+    font-family: "Futura Bk BT";
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.ringBanner > p {
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#ringBanner1 {
+    margin-left: 168px;
+}
+#ringBanner2 {
+
+}
+#ringBanner3 {
+
+}
+/*end rings*/
+/*middle*/
+#middle {
+    background-image: url("images/middlebg.png");
+    height: 577px;
+    margin-top: -18px;
+    width: 1400px;
+}
+#middle > h1{
+    color: #ee8129;
+    font-family: "Futura Bk BT";
+    font-size: 26px;
+    line-height: 1.8;
+    margin-left: 180px;
+    padding-top: 81px;
+    text-transform: uppercase;
+}
+#middle > p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 180px;
+    margin-top: -10px;
+}
+#middle >ul {
+    margin-left: 180px;
+}
+#middle > ul > li {
+    color: #9d9d9d;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    list-style: none;
+    margin-left: -10px;
+    padding-left: 10px;
+    position: relative;
+}
+#middle > ul > li:before {
+    content: url("images/pointGrey.png");
+    position: absolute;
+    left: -10px;
+}
+#middle .blue:before {
+    content: url("images/pointBlue.png");
+    position: absolute;
+    left: -10px;
+}
+#middle .blue{
+    color: #3070a8;
+}
+/*end middle*/
 /*banner*/
 #banner{
     background-color: #ffffff;
