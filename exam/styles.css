@@ -20,14 +20,14 @@ header {
 }
 header h1 {
     color: #222;
-    font-family: "oleo script";
+    font-family: "oleo script", sans-serif;
     line-height: 1;
     margin-bottom: 8px;
     margin-top: 49px;
 }
 header h3 {
     color: #999;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-size: 11px;
     margin: 0;
 }
@@ -36,7 +36,7 @@ header div {
 }
 .header_menu {
     display: block;
-    font-family: "oxygen";
+    font-family: "oxygen", sans-serif;
     position: absolute;
     right: 21px;
     top: 62px;
@@ -105,7 +105,6 @@ ul.submenu > li > a{
     background-color: #ffffff;
     height: 316px;
     position: relative;
-    box-shadow: ;
     width: 972px;
 }
 #main_banner > img {
@@ -116,7 +115,7 @@ ul.submenu > li > a{
 .main_banner_text {
     color: #515151;
     display: inline-block;
-    font-family: "oxygen";
+    font-family: "oxygen", sans-serif;
     position: absolute;
     text-align: right;
     width: 500px;
@@ -142,7 +141,7 @@ ul.submenu > li > a{
 }
 .main_banner_text > button > p {
     color: #ffffff;
-    font-family: "oxygen";
+    font-family: "oxygen", sans-serif;
     font-size: 17px;
     margin-top: 4px;
     margin-bottom: 0;
@@ -151,7 +150,7 @@ ul.submenu > li > a{
 }
 .main_banner_text > button > p > span {
     color: #d28600;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 10px;
 }
@@ -182,7 +181,7 @@ ul.submenu > li > a{
 }
 h3 {
     color: #222222;
-    font-family: "oxygen";
+    font-family: "oxygen", sans-serif;
     font-size: 18px;
     font-weight: normal;
     margin: 0 0 23px 18px;
@@ -208,7 +207,7 @@ h3 {
 }
 .content > p {
     color: #666666;
-    font-family: "oxygen";
+    font-family: "oxygen", sans-serif;
     font-size: 14px;
     position: absolute;
     left: 9px;
@@ -219,7 +218,7 @@ h3 {
 }
 .content > p > span{
     color: #c2c2c2;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-size: 11px;
     font-weight: normal;
 }
@@ -231,14 +230,12 @@ h3 {
     z-index: 6;
 }
 .content:hover .shadow {
-    left: 85px;
-    top: 60px;
     display: block;
 }
 .article {
     color: #c2c2c2;
     display: inline-block;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-size: 13px;
     font-weight: normal;
     height: 120px;
@@ -269,7 +266,78 @@ h3 {
     right: 67px;
     top: 60px;
 }
-#tabs {
+.content:hover .button > a {
+    display: block;
+}
+/*tabs*/
+#content2 {
+    background-color: #ffffff;
     height: 310px;
+    margin: 0;
+    padding: 0;
     width: 972px;
+}
+h3 {
+    margin: 0;
+}
+.tabs {
+    background-color: #f9f9f9;
+    border: solid 1px #e5e5e5;
+    position: relative;
+    margin: 0 auto;
+    width: 932px;
+}
+.tabs label {
+    border: solid 1px #e5e5e5;
+    color: #555;
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    top: 1px;
+    text-align: center;
+    z-index: 5;
+}
+
+.tabs input {
+    position: absolute;
+    left: -9999px;
+}
+
+#tab_1:checked  ~ #tab_l1,
+#tab_2:checked  ~ #tab_l2,
+#tab_3:checked  ~ #tab_l3 {
+    background: #fff;
+    border-left-color: #e5e5e5;
+    border-right-color: #e5e5e5;
+    border-bottom-color: #ffffff;
+    top: -1px;
+    z-index: 5;
+}
+
+.tabs_cont {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    height: 100px;
+}
+
+.tabs_cont > div {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    opacity: 0;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+#tab_1:checked ~ .tabs_cont #tab_c1,
+#tab_2:checked ~ .tabs_cont #tab_c2,
+#tab_3:checked ~ .tabs_cont #tab_c3 {
+    position: static;
+    left: 0;
+    opacity: 1;
 }
